@@ -1,10 +1,7 @@
 html,
 body {
-text-align: center;
-  margin: 0;
-  padding: 0;
   background-color: #111;
-  color: #FFF;
+  color: white;
 }
  
 .background {
@@ -16,7 +13,9 @@ text-align: center;
   z-index: 0;
 }
 
-.wrapper {
-    position: relative;
-    vertical-align: middle;
+input {
+  background-color:rgba(0,0,0,0) !important;
+  color: white;
+  border: solid 1px white;
 }
+
