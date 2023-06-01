@@ -1,4 +1,22 @@
+html,
 body {
-    text-align: center;
-    margin: auto;
+text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #FFF;
+}
+ 
+.background {
+  position: absolute;
+  display: block;
+  color:#8f8f8f;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.wrapper {
+    position: relative;
+    vertical-align: middle;
 }
