@@ -13,9 +13,11 @@ body {
   z-index: 0;
 }
 
-input {
+input, button {
   background-color:rgba(0,0,0,0) !important;
   color: white;
   border: solid 1px white;
+  box-sizing: border-box;
+  width: 100%
 }
 
